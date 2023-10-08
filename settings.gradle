@@ -1,0 +1,33 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode = RepositoriesMode.PREFER_PROJECT
+
+    def mapboxPrivateToken = System.getenv("SDK_REGISTRY_TOKEN") ?: "PrivateToken required to build. Obtain one from mapbox.com!"
+    println("PrivateToken: : " + mapboxPrivateToken)
+
+    repositories {
+        maven {
+            url = "https://api.mapbox.com/downloads/v2/releases/maven"
+            authentication {
+                create("basic", BasicAuthentication)
+            }
+            credentials {
+                // This should always be `mapbox` (not your username).
+                username = "mapbox"
+                password = mapboxPrivateToken // #SECURITY: Stored on local env only!
+            }
+        }
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "AerisDemo"
+include ':app'

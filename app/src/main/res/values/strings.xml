@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AerisDemo</string>
+    <string name="mapbox_public_access_token" translate="false">pk.eyJ1IjoiMXJpcHRpZGUiLCJhIjoiY2xuZDNmMXlsMDE0aTJrc2VscTRyNW03NSJ9.MVB4YYPn1MfNXfQEwEXPKA</string>
+    <string name="aerisapi_client_id" translate="false">RaZWruKaYFAwGhwXvRSWH</string>
+    <string name="aerisapi_client_secret" translate="false">fAt0bsoqDG25k2QdP6Hp9YC1wPNYN8PCcrC6imiU</string>
+    <string name="permissions_verbiage">The Location and External Storage permissions are required to get weather data and perform mapping functions. Please restart the app and allow these permissions.</string>
+    <string name="request_failed">Failed: %s</string>
+    <string name="error">Error</string>
+</resources>
