@@ -3,7 +3,6 @@ package com.caseystalnaker.apps.android.aerisdemo.mapbox.view.compose.alerts
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.navigation.NavHostController
 import com.caseystalnaker.apps.android.aerisdemo.mapbox.view.compose.ComposeMapboxMap
 import com.caseystalnaker.apps.android.aerisdemo.utils.Places
 import com.mapbox.maps.MapboxExperimental

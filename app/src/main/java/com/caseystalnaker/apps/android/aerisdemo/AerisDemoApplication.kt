@@ -7,7 +7,7 @@ import com.casey.stalnaker.android.apps.aerisdemo.R
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class AerisDemoApplication : Application(){
+class AerisDemoApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()

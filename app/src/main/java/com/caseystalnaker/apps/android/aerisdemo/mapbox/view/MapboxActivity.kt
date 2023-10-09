@@ -1,7 +1,7 @@
 package com.caseystalnaker.apps.android.aerisdemo.mapbox.view
 
-import android.annotation.SuppressLint
 import android.Manifest
+import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.widget.Toast
