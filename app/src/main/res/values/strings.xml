@@ -2,8 +2,8 @@
     <string name="app_name">AerisDemo</string>
     <string name="mapbox_public_access_token" translate="false">pk.eyJ1IjoiMXJpcHRpZGUiLCJhIjoiY2xuZDNmMXlsMDE0aTJrc2VscTRyNW03NSJ9.MVB4YYPn1MfNXfQEwEXPKA</string>
     <string name="aerisapi_client_id" translate="false">RaZWruKaYFAwGhwXvRSWH</string>
-    <string name="aerisapi_client_secret" translate="false">fAt0bsoqDG25k2QdP6Hp9YC1wPNYN8PCcrC6imiU</string>
-    <string name="google_maps_key" translate="false">AIzaSyB6p3frM_K2zzs0NKQKP2ddyw_r4K-WVZ8</string>
+    <string name="aerisapi_client_secret" translate="false">-</string>
+    <string name="google_maps_key" translate="false">-</string>
 
     <string name="open">Open</string>
     <string name="close">Close</string>
