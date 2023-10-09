@@ -16,7 +16,4 @@ AerisDemo is a weather mapping application that integrates with Google Maps, Map
 - Google Maps Reference: [Android SDK Documents](https://developers.google.com/maps/documentation/android-sdk/config)
 - Aeris Weather API Key: Sign up at [Aeris Weather](https://www.aerisweather.com/signup/) to get your API Key.
 - Aeris Weather SDK : [Demo App](https://github.com/aerisweather/mapsgl-android-webview)
-
-## Installation and Setup
-### Repository Command
-git clone https://github.com/1Riptide/AerisDemo.git
+- 
